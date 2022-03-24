@@ -50,46 +50,58 @@ body {
   }
 }
 
- .footer {
+.footer {
        position:absolute;
       bottom:0;
       text-align :center;
         }
-    
+
+
+
 .avatar {
-                        border-radius: 50%;
-                        height: 64px;
-                        width: 64px;
-                    }
-
-                        /* Rounded border */
-                        border-radius: 50%;
-
-                        height: 100%;
-                        width: 100%;
-                    }
-
-.qaqawa {
-                        display: flex;
-                    }
-
-                    .aaaaaa {
-                        margin-left: 10px;
-                    }
-
-                        align-items: center;
-                        display: flex;
-                        justify-content: center;
+       border-radius: 50%;
+       height: 64px;
+       width: 64px;
+        }
 
 
-                        border-radius: 9999px;
-                    }
+
+.avatar__image {    
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        }
+
+
+
+.avatars {
+      display: flex;
+         }
+
+
+
+.avatars__item {
+               margin-left: -4px;
+               }
+
+
+
+.avatars__image {
+                box-shadow: 0 0 0 4px #fff;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                border-radius: 9999px;
+                }
+
 
 .layered-card {
-                        position: relative;
-                    }
+              position: relative;
+              }
 
-                    .layered-card::before {
+
+
+.layered-card::before {
                         background: rgba(0, 0, 0, 0.3);
                         content: '';
 
