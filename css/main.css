@@ -55,7 +55,7 @@ body {
 .card {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
  
 
@@ -112,16 +112,16 @@ body {
 
 
 .avatars__item {
-               margin-left: -4px;
+               margin-left: 20px;
                }
 
 
 
 .avatars__image {
                 box-shadow: 0 0 0 4px #fff;
-                align-items: center;
+                align-items: right;
                 display: flex;
-                justify-content: center;
+                justify-content: right;
                 border-radius: 9999px;
                 }
 
