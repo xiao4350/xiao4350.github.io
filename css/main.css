@@ -54,8 +54,8 @@ body {
 
 .card {
   background-color: white;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 60px;
+  margin-top: 20px;
 }
  
 
@@ -118,7 +118,7 @@ body {
 
 
 .avatars__image {
-                box-shadow: 0 0 0 4px #fff;
+                box-shadow: 0 0 0 20px #fff;
                 align-items: right;
                 display: flex;
                 justify-content: right;
