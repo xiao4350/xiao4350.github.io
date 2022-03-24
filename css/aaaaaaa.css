@@ -71,16 +71,19 @@ body {
     .button {border-radius: 18px;}
     .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-      
+    
 .avatar {
+                        /* Rounded border */
                         border-radius: 50%;
                         height: 64px;
                         width: 64px;
                     }
 
                     .avatar__image {
+                        /* Rounded border */
                         border-radius: 50%;
 
+                        /* Take full size */
                         height: 100%;
                         width: 100%;
                     }
